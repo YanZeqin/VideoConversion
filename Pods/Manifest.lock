@@ -1,0 +1,20 @@
+PODS:
+  - FFmpeg (2.2):
+    - FFmpeg/precompiled (= 2.2)
+  - FFmpeg/precompiled (2.2)
+  - FFmpegWrapper (1.0):
+    - FFmpeg (~> 2.2)
+  - GPAC4iOS (0.2.1)
+
+DEPENDENCIES:
+  - FFmpegWrapper (~> 1.0)
+  - GPAC4iOS
+
+SPEC CHECKSUMS:
+  FFmpeg: 9eceaf0ea988434e1aeb31e3ee82d066d79bcdf4
+  FFmpegWrapper: 9a932581137d17203e842ce942e171158336ae16
+  GPAC4iOS: 81b31a8fae9c1e98fa5e28c2e60932e9f93d82a1
+
+PODFILE CHECKSUM: f155e07bbc6873500b8bda583d8fd3d4c4f04749
+
+COCOAPODS: 1.2.1

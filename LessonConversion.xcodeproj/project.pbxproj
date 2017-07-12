@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061604F83E8E21AA756FBBE3 /* libPods-LessonConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67BAB695BD55283F33B4168E /* libPods-LessonConversion.a */; };
 		55F73D9F1F16650000F7E152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F73D9E1F16650000F7E152 /* main.m */; };
 		55F73DA21F16650000F7E152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DA11F16650000F7E152 /* AppDelegate.m */; };
 		55F73DA51F16650000F7E152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DA41F16650000F7E152 /* ViewController.m */; };
@@ -15,6 +16,13 @@
 		55F73DAD1F16650100F7E152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F73DAB1F16650100F7E152 /* LaunchScreen.storyboard */; };
 		55F73DB81F16650100F7E152 /* LessonConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DB71F16650100F7E152 /* LessonConversionTests.m */; };
 		55F73DC31F16650100F7E152 /* LessonConversionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DC21F16650100F7E152 /* LessonConversionUITests.m */; };
+		55F73DE61F1665B700F7E152 /* mp4mux.c in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DD31F1665B700F7E152 /* mp4mux.c */; };
+		55F73DE71F1665B700F7E152 /* ts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DDB1F1665B700F7E152 /* ts.cpp */; };
+		55F73DE81F1665B700F7E152 /* NSFileManager+Temporary.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DDF1F1665B700F7E152 /* NSFileManager+Temporary.m */; };
+		55F73DE91F1665B700F7E152 /* KMMediaAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DE21F1665B700F7E152 /* KMMediaAsset.m */; };
+		55F73DEA1F1665B700F7E152 /* KMMediaAssetExportSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55F73DE41F1665B700F7E152 /* KMMediaAssetExportSession.mm */; };
+		55F73DED1F1665CA00F7E152 /* 132311.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 55F73DEB1F1665CA00F7E152 /* 132311.mp4 */; };
+		55F73DEE1F1665CA00F7E152 /* 20170712160939086.ts in Resources */ = {isa = PBXBuildFile; fileRef = 55F73DEC1F1665CA00F7E152 /* 20170712160939086.ts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0231E7A90152FA9945F9A30C /* Pods-LessonConversion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LessonConversion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LessonConversion/Pods-LessonConversion.debug.xcconfig"; sourceTree = "<group>"; };
 		55F73D9A1F16650000F7E152 /* LessonConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F73D9E1F16650000F7E152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55F73DA01F16650000F7E152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,25 @@
 		55F73DBE1F16650100F7E152 /* LessonConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonConversionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F73DC21F16650100F7E152 /* LessonConversionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonConversionUITests.m; sourceTree = "<group>"; };
 		55F73DC41F16650100F7E152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F73DD31F1665B700F7E152 /* mp4mux.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp4mux.c; sourceTree = "<group>"; };
+		55F73DD41F1665B700F7E152 /* mp4mux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp4mux.h; sourceTree = "<group>"; };
+		55F73DD61F1665B700F7E152 /* KMMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMedia.h; sourceTree = "<group>"; };
+		55F73DD81F1665B700F7E152 /* ac3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ac3.h; sourceTree = "<group>"; };
+		55F73DD91F1665B700F7E152 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		55F73DDA1F1665B700F7E152 /* h264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264.h; sourceTree = "<group>"; };
+		55F73DDB1F1665B700F7E152 /* ts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts.cpp; sourceTree = "<group>"; };
+		55F73DDC1F1665B700F7E152 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		55F73DDE1F1665B700F7E152 /* NSFileManager+Temporary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Temporary.h"; sourceTree = "<group>"; };
+		55F73DDF1F1665B700F7E152 /* NSFileManager+Temporary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Temporary.m"; sourceTree = "<group>"; };
+		55F73DE11F1665B700F7E152 /* KMMediaAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMediaAsset.h; sourceTree = "<group>"; };
+		55F73DE21F1665B700F7E152 /* KMMediaAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMediaAsset.m; sourceTree = "<group>"; };
+		55F73DE31F1665B700F7E152 /* KMMediaAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMediaAssetExportSession.h; sourceTree = "<group>"; };
+		55F73DE41F1665B700F7E152 /* KMMediaAssetExportSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KMMediaAssetExportSession.mm; sourceTree = "<group>"; };
+		55F73DE51F1665B700F7E152 /* KMMediaFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMediaFormat.h; sourceTree = "<group>"; };
+		55F73DEB1F1665CA00F7E152 /* 132311.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 132311.mp4; sourceTree = "<group>"; };
+		55F73DEC1F1665CA00F7E152 /* 20170712160939086.ts */ = {isa = PBXFileReference; lastKnownFileType = file; path = 20170712160939086.ts; sourceTree = "<group>"; };
+		67BAB695BD55283F33B4168E /* libPods-LessonConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LessonConversion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B8F7AB67D1B90E29864578 /* Pods-LessonConversion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LessonConversion.release.xcconfig"; path = "Pods/Target Support Files/Pods-LessonConversion/Pods-LessonConversion.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061604F83E8E21AA756FBBE3 /* libPods-LessonConversion.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CDDF35520E523DAE276C78E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67BAB695BD55283F33B4168E /* libPods-LessonConversion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55F73D911F16650000F7E152 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				55F73DB61F16650100F7E152 /* LessonConversionTests */,
 				55F73DC11F16650100F7E152 /* LessonConversionUITests */,
 				55F73D9B1F16650000F7E152 /* Products */,
+				9BBFBFEC75C22B9BDF4A3CA6 /* Pods */,
+				0CDDF35520E523DAE276C78E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +144,7 @@
 				55F73DA11F16650000F7E152 /* AppDelegate.m */,
 				55F73DA31F16650000F7E152 /* ViewController.h */,
 				55F73DA41F16650000F7E152 /* ViewController.m */,
+				55F73DD11F1665B700F7E152 /* Classes */,
 				55F73DA61F16650000F7E152 /* Main.storyboard */,
 				55F73DA91F16650000F7E152 /* Assets.xcassets */,
 				55F73DAB1F16650100F7E152 /* LaunchScreen.storyboard */,
@@ -140,6 +180,79 @@
 			path = LessonConversionUITests;
 			sourceTree = "<group>";
 		};
+		55F73DD11F1665B700F7E152 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55F73DEB1F1665CA00F7E152 /* 132311.mp4 */,
+				55F73DEC1F1665CA00F7E152 /* 20170712160939086.ts */,
+				55F73DD21F1665B700F7E152 /* MP4Mux */,
+				55F73DD51F1665B700F7E152 /* Public */,
+				55F73DD71F1665B700F7E152 /* TSDemux */,
+				55F73DDD1F1665B700F7E152 /* Utils */,
+				55F73DE01F1665B700F7E152 /* Wrapper */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		55F73DD21F1665B700F7E152 /* MP4Mux */ = {
+			isa = PBXGroup;
+			children = (
+				55F73DD31F1665B700F7E152 /* mp4mux.c */,
+				55F73DD41F1665B700F7E152 /* mp4mux.h */,
+			);
+			path = MP4Mux;
+			sourceTree = "<group>";
+		};
+		55F73DD51F1665B700F7E152 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				55F73DD61F1665B700F7E152 /* KMMedia.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		55F73DD71F1665B700F7E152 /* TSDemux */ = {
+			isa = PBXGroup;
+			children = (
+				55F73DD81F1665B700F7E152 /* ac3.h */,
+				55F73DD91F1665B700F7E152 /* common.h */,
+				55F73DDA1F1665B700F7E152 /* h264.h */,
+				55F73DDB1F1665B700F7E152 /* ts.cpp */,
+				55F73DDC1F1665B700F7E152 /* ts.h */,
+			);
+			path = TSDemux;
+			sourceTree = "<group>";
+		};
+		55F73DDD1F1665B700F7E152 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				55F73DDE1F1665B700F7E152 /* NSFileManager+Temporary.h */,
+				55F73DDF1F1665B700F7E152 /* NSFileManager+Temporary.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		55F73DE01F1665B700F7E152 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				55F73DE11F1665B700F7E152 /* KMMediaAsset.h */,
+				55F73DE21F1665B700F7E152 /* KMMediaAsset.m */,
+				55F73DE31F1665B700F7E152 /* KMMediaAssetExportSession.h */,
+				55F73DE41F1665B700F7E152 /* KMMediaAssetExportSession.mm */,
+				55F73DE51F1665B700F7E152 /* KMMediaFormat.h */,
+			);
+			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		9BBFBFEC75C22B9BDF4A3CA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0231E7A90152FA9945F9A30C /* Pods-LessonConversion.debug.xcconfig */,
+				F3B8F7AB67D1B90E29864578 /* Pods-LessonConversion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55F73DC71F16650100F7E152 /* Build configuration list for PBXNativeTarget "LessonConversion" */;
 			buildPhases = (
+				76E67A851CA3CCC0803ED4FE /* [CP] Check Pods Manifest.lock */,
 				55F73D961F16650000F7E152 /* Sources */,
 				55F73D971F16650000F7E152 /* Frameworks */,
 				55F73D981F16650000F7E152 /* Resources */,
+				91DC8EBE4B0684E374A9B0A2 /* [CP] Embed Pods Frameworks */,
+				7B88FA3506879D53F6817BE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +362,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F73DED1F1665CA00F7E152 /* 132311.mp4 in Resources */,
 				55F73DAD1F16650100F7E152 /* LaunchScreen.storyboard in Resources */,
+				55F73DEE1F1665CA00F7E152 /* 20170712160939086.ts in Resources */,
 				55F73DAA1F16650000F7E152 /* Assets.xcassets in Resources */,
 				55F73DA81F16650000F7E152 /* Main.storyboard in Resources */,
 			);
@@ -268,13 +386,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76E67A851CA3CCC0803ED4FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B88FA3506879D53F6817BE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LessonConversion/Pods-LessonConversion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91DC8EBE4B0684E374A9B0A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LessonConversion/Pods-LessonConversion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55F73D961F16650000F7E152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F73DE71F1665B700F7E152 /* ts.cpp in Sources */,
+				55F73DE61F1665B700F7E152 /* mp4mux.c in Sources */,
+				55F73DEA1F1665B700F7E152 /* KMMediaAssetExportSession.mm in Sources */,
 				55F73DA51F16650000F7E152 /* ViewController.m in Sources */,
 				55F73DA21F16650000F7E152 /* AppDelegate.m in Sources */,
+				55F73DE81F1665B700F7E152 /* NSFileManager+Temporary.m in Sources */,
+				55F73DE91F1665B700F7E152 /* KMMediaAsset.m in Sources */,
 				55F73D9F1F16650000F7E152 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +595,7 @@
 		};
 		55F73DC81F16650100F7E152 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0231E7A90152FA9945F9A30C /* Pods-LessonConversion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LessonConversion/Info.plist;
@@ -435,6 +607,7 @@
 		};
 		55F73DC91F16650100F7E152 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B8F7AB67D1B90E29864578 /* Pods-LessonConversion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LessonConversion/Info.plist;
@@ -509,6 +682,7 @@
 				55F73DC91F16650100F7E152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55F73DCA1F16650100F7E152 /* Build configuration list for PBXNativeTarget "LessonConversionTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +691,7 @@
 				55F73DCC1F16650100F7E152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55F73DCD1F16650100F7E152 /* Build configuration list for PBXNativeTarget "LessonConversionUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +700,7 @@
 				55F73DCF1F16650100F7E152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
